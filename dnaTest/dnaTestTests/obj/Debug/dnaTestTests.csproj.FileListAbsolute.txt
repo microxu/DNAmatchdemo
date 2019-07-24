@@ -1,0 +1,9 @@
+D:\AllKindofTest\VSTest\dnaGraph\dnaTest\dnaTestTests\bin\Debug\dnaTestTests.dll
+D:\AllKindofTest\VSTest\dnaGraph\dnaTest\dnaTestTests\bin\Debug\dnaTestTests.pdb
+D:\AllKindofTest\VSTest\dnaGraph\dnaTest\dnaTestTests\bin\Debug\dnaTest.exe
+D:\AllKindofTest\VSTest\dnaGraph\dnaTest\dnaTestTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\AllKindofTest\VSTest\dnaGraph\dnaTest\dnaTestTests\bin\Debug\dnaTest.pdb
+D:\AllKindofTest\VSTest\dnaGraph\dnaTest\dnaTestTests\bin\Debug\zh-Hans\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+D:\AllKindofTest\VSTest\dnaGraph\dnaTest\dnaTestTests\obj\Debug\dnaTestTests.csprojResolveAssemblyReference.cache
+D:\AllKindofTest\VSTest\dnaGraph\dnaTest\dnaTestTests\obj\Debug\dnaTestTests.dll
+D:\AllKindofTest\VSTest\dnaGraph\dnaTest\dnaTestTests\obj\Debug\dnaTestTests.pdb

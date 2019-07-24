@@ -1,0 +1,6 @@
+D:\AllKindofTest\VSTest\dnaGraph\dnaTest\dnaTest\bin\Debug\dnaTest.exe.config
+D:\AllKindofTest\VSTest\dnaGraph\dnaTest\dnaTest\bin\Debug\dnaTest.exe
+D:\AllKindofTest\VSTest\dnaGraph\dnaTest\dnaTest\bin\Debug\dnaTest.pdb
+D:\AllKindofTest\VSTest\dnaGraph\dnaTest\dnaTest\obj\Debug\dnaTest.csprojResolveAssemblyReference.cache
+D:\AllKindofTest\VSTest\dnaGraph\dnaTest\dnaTest\obj\Debug\dnaTest.exe
+D:\AllKindofTest\VSTest\dnaGraph\dnaTest\dnaTest\obj\Debug\dnaTest.pdb
