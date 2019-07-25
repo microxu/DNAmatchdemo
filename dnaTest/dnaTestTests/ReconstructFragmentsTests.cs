@@ -78,8 +78,8 @@ namespace dnatest.Tests
             IReconstructFragmentsTools reconstructFragmentsTools = new ReconstructFragmentsTools();
             IReconstructFragments reconstructFragments = new ReconstructFragments(reconstructFragmentsTools);
             string actual = reconstructFragments.ReconstructFragmentSentences(fragments);
-
-            Assert.AreEqual("Neque porro quisquam est, qui dolorem i dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.", actual);
+            
+            Assert.AreEqual("Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.", actual);
 
         }
     }

@@ -100,6 +100,7 @@ namespace dnatest
                 if (str2.Substring(str2.Length - i, i) == temp)
                 {
                     maxStr = temp;
+                    break;
                 }
             }
             return maxStr;
@@ -321,7 +322,11 @@ namespace dnatest
             List<string> l = new List<string>();
             IReadFragmentFiles _readFragmentFiles = new ReadFragmentFiles();
             IReconstructFragmentsTools reconstructFragmentsTools = new ReconstructFragmentsTools();
-            l = _readFragmentFiles.ReadFragmentsFromFile(@"..\..\fragments\fragments.txt");
+            //l = _readFragmentFiles.ReadFragmentsFromFile(@"..\..\fragments\fragments.txt");
+            l = "m quaerat voluptatem.;pora incidunt ut labore et d;, consectetur, adipisci velit;olore magnam aliqua;idunt ut labore et dolore magn;uptatem.;i dolorem ipsum qu;iquam quaerat vol;psum quia dolor sit amet, consectetur, a;ia dolor sit amet, conse;squam est, qui do;Neque porro quisquam est, qu;aerat voluptatem.;m eius modi tem;Neque porro qui;, sed quia non numquam ei;lorem ipsum quia dolor sit amet;ctetur, adipisci velit, sed quia non numq;unt ut labore et dolore magnam aliquam qu;dipisci velit, sed quia non numqua;us modi tempora incid;Neque porro quisquam est, qui dolorem i;uam eius modi tem;pora inc;am al"
+            //l= "Neque porro quisquam est, qu;qui dolorem i;i dolorem ipsum qu"
+    .Split(';')
+    .ToList();
             IReconstructFragments reconstructFragments = new ReconstructFragments(reconstructFragmentsTools);           
 
 
