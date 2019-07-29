@@ -13,20 +13,20 @@ namespace dnatest
     public interface IReadFragmentFiles
     {
         /// <summary>
-        /// depth copy a list
+        /// read a file
         /// </summary>
-        /// <param name="OringalList">the original list</param>
-        /// <returns>a copy of the list</returns>
+        /// <param name="Path">the path of a file,including file name</param>
+        /// <returns>list of each line</returns>
         List<string> ReadFragmentsFromFile(string Path);
     }
     public interface IReconstructFragmentsTools
     {
         /// <summary>
-        /// KMP algorithm. Seach target string in Source string
+        /// KMP algorithm. Search target string in Source string
         /// </summary>
         /// <param name="target">target string</param>
         /// <param name="source">source string</param>
-        /// <returns>The location of the targe string in the source string</returns>
+        /// <returns>The location of the target string in the source string</returns>
         int KMPSearch(string target, string source);
         /// <summary>
         /// depth copy a list
